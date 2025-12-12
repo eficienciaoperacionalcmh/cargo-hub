@@ -4,10 +4,10 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import LogoNavbar from "@/components/logo"
 
-const navigation = [
-    // { name: "Mensajería", href: "/dashboard/OPTView" },
-    // { name: "Drive", href: "/dashboard/Mensajeria" },
-]
+// const navigation = [
+//     // { name: "Mensajería", href: "/dashboard/OPTView" },
+//     // { name: "Drive", href: "/dashboard/Mensajeria" },
+// ]
 
 export default function Navbar() {
     const pathname = usePathname()
@@ -17,7 +17,7 @@ export default function Navbar() {
             <div className="flex h-14 items-center px-4 md:px-6">
                 <LogoNavbar />
                 <div className="ml-8 flex items-center gap-6">
-                    {navigation.map((item) => (
+                    {/* {navigation.map((item) => (
                         <Link
                             key={item.name}
                             href={item.href}
@@ -27,7 +27,7 @@ export default function Navbar() {
                         >
                             {item.name}
                         </Link>
-                    ))}
+                    ))} */}
                 </div>
             </div>
         </div>
