@@ -1,7 +1,7 @@
 "use client"
 
-import Link from "next/link"
-import { usePathname } from "next/navigation"
+// import Link from "next/link"
+// import { usePathname } from "next/navigation"
 import LogoNavbar from "@/components/logo"
 
 // const navigation = [
@@ -10,7 +10,7 @@ import LogoNavbar from "@/components/logo"
 // ]
 
 export default function Navbar() {
-    const pathname = usePathname()
+    // const pathname = usePathname()
 
     return (
         <div className="border-b h-14">
