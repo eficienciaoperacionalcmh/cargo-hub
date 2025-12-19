@@ -9,7 +9,7 @@ const LogoNavbar = () => {
                 <Image src="/logoDespachoHub.png" alt="Logo" width={40} height={40} />
             </Link>
             <span className="text-xs text-muted-foreground">/</span>
-            <span className="text-xs font-medium">CargoMon</span>
+            <span className="text-xs font-medium">CARGO-HUB</span>
         </div>
     )
 }
